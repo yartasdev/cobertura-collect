@@ -6,11 +6,10 @@
 ![NPM License](https://img.shields.io/npm/l/%40yartasdev%2Fcobertura-collect)
 
 
-
 Collect cobertura coverages from specific directories and create a summary file
 
-## Background
-Inspired by [cobertura-merge](https://github.com/borremosch/cobertura-merge), i aimed to replace the use of node-gyp and collect cobertura coverages from specific folders with [FastGlob](https://github.com/mrmlnc/fast-glob).
+## Story
+Inspired by [cobertura-merge](https://github.com/borremosch/cobertura-merge){:target="_blank"}, i aimed to replace the use of node-gyp and collect cobertura coverages from specific folders with [FastGlob](https://github.com/mrmlnc/fast-glob){:target="_blank"}.
 
 ## Usage
 
@@ -18,8 +17,12 @@ It can be install globally and run
 
 ```sh
 npm install @yartasdev/collect-cobertura -g
+```
+
+```sh
 @yartasdev/collect-cobertura -p -o cobertura-output.xml -t /coverage/**/cobertura-coverage.xml
 ```
+
 Or it can be used directly without install
 
 ```sh
@@ -28,8 +31,8 @@ npx @yartasdev/collect-cobertura -p -o cobertura-output.xml -t /coverage/**/cobe
 
 ## Options
 
-| option                | description                                                  |
-| --------------------- | ------------------------------------------------------------ |
-| -o, --output FILE     | Output file name with extension e.g. /coverage/cobertura.xml |
-| -t, --target DIR      | Target files path /coverage/**/cobertura.xml                 |
-| -p, --print           | Prints a summary of the code coverage to the standard output |
+| Option                  | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| -o, --output FILE       | Output file name with extension e.g. /coverage/cobertura.xml |
+| -t, --target DIRECTORY  | Target files path /coverage/**/cobertura.xml                 |
+| -p, --print             | Prints a summary of the code coverage to the standard output |
