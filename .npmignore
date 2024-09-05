@@ -1,0 +1,4 @@
+src/
+dist/coverage
+tsconfig.json
+.*

@@ -1,0 +1,48 @@
+{
+  "name": "@yartasdev/cobertura-collect",
+  "version": "1.0.0",
+  "description": "Collect cobertura coverages from specific directories and create a summary file",
+  "main": "dist/collector.js",
+  "bin": {
+    "cobertura-collect": "dist/index.js"
+  },
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc",
+    "prebuild": "rm -rf dist",
+    "test": "jest"
+  },
+  "keywords": [
+    "cobertura",
+    "cobertura-coverage",
+    "cobertura-merge",
+    "cobertura-collect"
+  ],
+  "author": "emreyartas@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "colorette": "^2.0.20",
+    "commander": "^12.1.0",
+    "fast-glob": "^3.3.2",
+    "fast-xml-parser": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.5.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.5.4"
+  },
+  "bugs": {
+    "url": "https://github.com/yartasdev/cobertura-collect.git/issues"
+  },
+  "homepage": "https://github.com/yartasdev/cobertura-collect.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yartasdev/cobertura-collect.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "./dist/util.d.ts"
+}
