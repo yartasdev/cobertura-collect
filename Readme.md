@@ -20,13 +20,13 @@ npm install @yartasdev/collect-cobertura -g
 ```
 
 ```sh
-@yartasdev/collect-cobertura -p -o cobertura-output.xml -t /coverage/**/cobertura-coverage.xml
+@yartasdev/cobertura-collect -p -o cobertura-output.xml -t /coverage/**/cobertura-coverage.xml
 ```
 
 Or it can be used directly without install
 
 ```sh
-npx @yartasdev/collect-cobertura -p -o cobertura-output.xml -t /coverage/**/cobertura-coverage.xml
+npx @yartasdev/cobertura-collect -p -o cobertura-output.xml -t /coverage/**/cobertura-coverage.xml
 ```
 
 ## Options
