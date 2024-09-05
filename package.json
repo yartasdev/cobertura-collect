@@ -1,6 +1,6 @@
 {
   "name": "@yartasdev/cobertura-collect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collect cobertura coverages from specific directories and create a summary file",
   "main": "dist/collector.js",
   "bin": {
