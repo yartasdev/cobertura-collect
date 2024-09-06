@@ -9,7 +9,7 @@
 Collect cobertura coverages from specific directories and create a summary file
 
 ## Story
-Inspired by [cobertura-merge](https://github.com/borremosch/cobertura-merge){:target="_blank"}, i aimed to replace the use of node-gyp and collect cobertura coverages from specific folders with [FastGlob](https://github.com/mrmlnc/fast-glob){:target="_blank"}.
+Inspired by [cobertura-merge](https://github.com/borremosch/cobertura-merge), i aimed to replace the use of node-gyp and collect cobertura coverages from specific folders with [FastGlob](https://github.com/mrmlnc/fast-glob).
 
 ## Usage
 
